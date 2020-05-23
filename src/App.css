@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+@import '~antd/dist/antd.css';
+
+.ant-layout-sider {
+  text-align:center;
+  background:white;
+  padding: 10px;
+  flex: 0 0 250px !important;
+  max-width: 400px !important;
+  width: 300px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ant-menu-item {
+  padding: 0;
+  border: 0;
+  /* margin-top: 30px; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ant-menu-item-active {
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ant-menu-inline {
+  border-right: 0;
+  margin-top: 40px;;
 }
 
-.App-link {
-  color: #61dafb;
+.ant-input {
+  border: 0;
+  border-bottom: 2px rgba(0, 0, 0, 0.2) solid;
+  width: 250px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.anticon {
+  margin: 5px;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: white;
+}
+
+.ant-menu-item-selected {
+  background-color: white;
+  border-radius: 20px;
+  transition: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  color: black;
+}
+
+.ant-dropdown-link {
+  padding: 5px;
+  color: #1C1919;
+  margin: 20px;
+  height: 50px;
+}
+
+.eco {
+  background-color: #1C1919;
+  /* padding: 5px; */
+}
+
+.ant-layout-header {
+  display:inline-block;
+  padding:0;
+  background:white;
+  height:80px;
+  line-height: 0;
+}
+
+.container1 {
+  display:inline-block;
+  /* float: left;  */
+  padding:0;
+  background:white;
+  height:50%;
+  width: 100%;
+  border-bottom: 4px rgba(0, 0, 0, 0.2) solid;
+}
+
+.container2 {
+  /* display: inline-block; */
+  /* border-top: 2px grey solid; */
+  margin-top: 5px;
+  height:50%;
+  width: 100%;
+  float: left;
+}
+
+.element {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+
+}
+
+.p-element {
+  /* height: 40px; */
+  line-height: 0;
+  /* margin: 10; */
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.site-layout-background {
+  background-color: white;
 }
