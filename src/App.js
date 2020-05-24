@@ -38,7 +38,7 @@ class App extends React.Component {
             <img style={{textAlign:'center', height:100, width:100, borderRadius:'70%', margin:20, marginBottom:0}} alt='Michel' src='./guy.jpg' />
             <Title style={{marginBottom:30}}  level={4}>Michael</Title>
             <Dropdown style={{marginTop:30, marginBottom:30}} overlay={menu} trigger={['click']}>
-              <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+              <a className="ant-dropdown-link" href="1" onClick={e => e.preventDefault()}>
                 <Avatar style={{marginRight:30}} src='./plane1.svg' />
                 Drone 
                 <DownOutlined style={{margin:'0px 10px 0px 40px'}}/>
@@ -69,10 +69,10 @@ class App extends React.Component {
           <Header >
             <div className='container1' >
               <Title style={{ color:'grey', float:'left', height:25.6 }} level={3}>MAINTANCE SUMMARY</Title>
-              <SettingFilled style={{float:'right', height:25.6, display: "flex", alignItems: 'center'}} />
+              <SettingFilled style={{float:'right', width:20, height:25.6, display: "flex", alignItems: 'center'}} />
               <BellFilled style={{float:'right', height:25.6, display: "flex", alignItems: 'center'}} />
               <UserOutlined style={{float:'right', height:25.6, display: "flex", alignItems: 'center'}} />
-              <Input style={{float:'right', height:25.6}}  className='inp' placeholder="Search.." />
+              <Input style={{float:'right', height:25.6, display: "flex", alignItems: 'center'}}  className='inp' placeholder="Search.." />
             </div>
             <div className='container2'>
               <div className='element' >
