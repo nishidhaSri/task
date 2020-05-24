@@ -69,9 +69,9 @@ class App extends React.Component {
           <Header >
             <div className='container1' >
               <Title style={{ color:'grey', float:'left', height:25.6 }} level={3}>MAINTANCE SUMMARY</Title>
-              <SettingFilled style={{float:'right', height:25.6}} />
-              <BellFilled style={{float:'right', height:25.6}} />
-              <UserOutlined style={{float:'right', height:25.6}} />
+              <SettingFilled style={{float:'right', height:25.6, display: "flex", alignItems: 'center'}} />
+              <BellFilled style={{float:'right', height:25.6, display: "flex", alignItems: 'center'}} />
+              <UserOutlined style={{float:'right', height:25.6, display: "flex", alignItems: 'center'}} />
               <Input style={{float:'right', height:25.6}}  className='inp' placeholder="Search.." />
             </div>
             <div className='container2'>
